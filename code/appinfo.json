@@ -1,0 +1,9 @@
+{
+	"id": "com.jdfsoftware.tuneyourguitar",
+	"version": "0.9.5",
+	"vendor": "JDF Software",
+	"type": "web",
+	"main": "index.html",
+	"title": "Tune Your Guitar",
+	"icon": "icon.png"
+}

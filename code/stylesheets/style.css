@@ -1,0 +1,252 @@
+/* pre scene */
+
+div#main {
+position:fixed;
+top:0px;
+left:0px;
+width:320px;
+height:480px;
+background:url(../img/bg-pre.png) #fff center center no-repeat fixed;
+z-index:1;
+}
+
+div#standard {
+position:fixed;
+top:42px;
+left:0px;
+width:160px;
+height:25px;
+text-align:center;
+z-index:200;
+}
+
+div#standard-overlay {
+position:fixed;
+top:44px;
+left:8px;
+width:143px;
+height:19px;
+background:url(../img/standard.png) transparent center center no-repeat fixed;
+z-index:-1;
+}
+
+div#droppedD {
+position:fixed;
+top:42px;
+left:160px;
+width:160px;
+height:25px;
+text-align:center;
+z-index:300;
+}
+
+div#droppedD-overlay {
+position:fixed;
+top:44px;
+left:168px;
+width:143px;
+height:19px;
+background:url(../img/dropped-d.png) transparent center center no-repeat fixed;
+z-index:-1;
+}
+
+div#sixthString {
+position:fixed;
+top:67px;
+left:0px;
+width:52px;
+height:315px;
+z-index:40;
+}
+
+div#fifthString {
+position:fixed;
+top:67px;
+left:52px;
+width:54px;
+height:315px;
+z-index:50;
+}
+
+div#fourthString {
+position:fixed;
+top:67px;
+left:106px;
+width:54px;
+height:315px;
+z-index:60;
+}
+
+div#thirdString {
+position:fixed;
+top:67px;
+left:160px;
+width:53px;
+height:315px;
+z-index:70
+}
+
+div#secondString {
+position:fixed;
+top:67px;
+left:213px;
+width:54px;
+height:315px;
+z-index:80;
+}
+
+div#firstString {
+position:fixed;
+top:67px;
+left:267px;
+width:53px;
+height:315px;
+z-index:90;
+}
+
+div#pro {
+position:fixed;
+top:382px;
+left:0px;
+width:320px;
+height:33px;
+z-index:100;
+}
+
+div#onOverlay {
+position:fixed;
+top:359px;
+left:0px;
+width:20px;
+height:20px;
+background:url(../img/on.png) transparent center center no-repeat fixed;
+z-index:-1;
+}
+
+
+
+
+/* pixi scene */
+
+div#pixi-main {
+position:fixed;
+top:0px;
+left:0px;
+width:320px;
+height:400px;
+background:url(../img/bg-pixi.png) #fff center center no-repeat fixed;
+z-index:1;
+}
+
+div#pixi-standard {
+position:fixed;
+top:42px;
+left:0px;
+width:160px;
+height:25px;
+text-align:center;
+z-index:200;
+}
+
+div#pixi-standard-overlay {
+position:fixed;
+top:44px;
+left:8px;
+width:143px;
+height:19px;
+background:url(../img/standard.png) transparent center center no-repeat fixed;
+z-index:-1;
+}
+
+div#pixi-droppedD {
+position:fixed;
+top:42px;
+left:160px;
+width:160px;
+height:25px;
+text-align:center;
+z-index:300;
+}
+
+div#pixi-droppedD-overlay {
+position:fixed;
+top:44px;
+left:168px;
+width:143px;
+height:19px;
+background:url(../img/dropped-d.png) transparent center center no-repeat fixed;
+z-index:-1;
+}
+
+div#pixi-sixthString {
+position:fixed;
+top:67px;
+left:0px;
+width:52px;
+height:245px;
+z-index:40;
+}
+
+div#pixi-fifthString {
+position:fixed;
+top:67px;
+left:52px;
+width:54px;
+height:245px;
+z-index:50;
+}
+
+div#pixi-fourthString {
+position:fixed;
+top:67px;
+left:106px;
+width:54px;
+height:245px;
+z-index:60;
+}
+
+div#pixi-thirdString {
+position:fixed;
+top:67px;
+left:160px;
+width:53px;
+height:245px;
+z-index:70
+}
+
+div#pixi-secondString {
+position:fixed;
+top:67px;
+left:213px;
+width:54px;
+height:245px;
+z-index:80;
+}
+
+div#pixi-firstString {
+position:fixed;
+top:67px;
+left:267px;
+width:53px;
+height:245px;
+z-index:90;
+}
+
+div#pixi-pro {
+position:fixed;
+top:312px;
+left:0px;
+width:320px;
+height:33px;
+z-index:100;
+}
+
+div#pixi-onOverlay {
+position:fixed;
+top:290px;
+left:0px;
+width:20px;
+height:20px;
+background:url(../img/on.png) transparent center center no-repeat fixed;
+z-index:-1;
+}

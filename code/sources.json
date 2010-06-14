@@ -1,0 +1,13 @@
+[
+    {
+        "source": "app/assistants/stage-assistant.js"
+    },
+    {
+	"scenes": "pre",
+	"source": "app/assistants/pre-assistant.js"
+    },
+    {
+        "scenes": "pixi",
+        "source": "app/assistants/pixi-assistant.js"
+    }
+]
