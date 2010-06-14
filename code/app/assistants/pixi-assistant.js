@@ -118,11 +118,11 @@ PixiAssistant.prototype.switchTuning = function(tune) {
 	switch(tune) {
 		case "standard":
 			this.sixthmp3 = Mojo.appPath + "audio/6-e.mp3";
-			this.fifthmp3 = Mojo.appPath + "audio/5-a.mp3";
-			this.fourthmp3 = Mojo.appPath + "audio/4-d.mp3";
-			this.thirdmp3 = Mojo.appPath + "audio/3-g.mp3";
-			this.secondmp3 = Mojo.appPath + "audio/2-b.mp3";
-			this.firstmp3 = Mojo.appPath + "audio/1-e.mp3";
+			this.fifthmp3 = Mojo.appPath + "audio/5-a.wav";
+			this.fourthmp3 = Mojo.appPath + "audio/4-d.wav";
+			this.thirdmp3 = Mojo.appPath + "audio/3-g.wav";
+			this.secondmp3 = Mojo.appPath + "audio/2-b.wav";
+			this.firstmp3 = Mojo.appPath + "audio/1-e.wav";
 			// turn on standard selection overlay
 			this.standardOverlay.style.zIndex = "2";
 			this.droppedDOverlay.style.zIndex = "-1";
@@ -130,11 +130,11 @@ PixiAssistant.prototype.switchTuning = function(tune) {
 
 		case "droppedD":
 			this.sixthmp3 = Mojo.appPath + "audio/6-d.mp3";
-			this.fifthmp3 = Mojo.appPath + "audio/5-a.mp3";
-			this.fourthmp3 = Mojo.appPath + "audio/4-d.mp3";
-			this.thirdmp3 = Mojo.appPath + "audio/3-g.mp3";
-			this.secondmp3 = Mojo.appPath + "audio/2-b.mp3";
-			this.firstmp3 = Mojo.appPath + "audio/1-e.mp3";
+			this.fifthmp3 = Mojo.appPath + "audio/5-a.wav";
+			this.fourthmp3 = Mojo.appPath + "audio/4-d.wav";
+			this.thirdmp3 = Mojo.appPath + "audio/3-g.wav";
+			this.secondmp3 = Mojo.appPath + "audio/2-b.wav";
+			this.firstmp3 = Mojo.appPath + "audio/1-e.wav";
 			// turn on droppedD selection overlay
 			this.droppedDOverlay.style.zIndex = "2";
 			this.standardOverlay.style.zIndex = "-1";
@@ -321,7 +321,7 @@ PixiAssistant.prototype.handleCommand = function (event) {
 			case 'menu-about':
 				this.controller.showAlertDialog({
 					title: $L("About"),
-					message: $L("Tune Your Guitar v0.9.5 Copyright 2010 JDF Software. Contact me at http://www.jdf-software.com http://twitter.com/jdfsoftware or jdfsoftware@gmail.com with any comments or suggestions. I do listen!"),
+					message: $L("Tune Your Guitar v1.0.0 Copyright 2010 JDF Software. Contact me at http://www.jdf-software.com http://twitter.com/jdfsoftware or jdfsoftware@gmail.com with any comments or suggestions. I do listen!"),
 					choices:[
 	         				{label:$L('Ok'), value:"refresh", type:'affirmative'}
 					]				    
@@ -341,6 +341,6 @@ PixiAssistant.prototype.launchSupportEmail = function() {
 	this.controller.serviceRequest('palm://com.palm.applicationManager',
 					{
 						method:'open',
-						parameters:{target: 'mailto:jdfsoftware@gmail.com?subject=Tune%20Your%20Guitar%20Support%20v0.9.5'}
+						parameters:{target: 'mailto:jdfsoftware@gmail.com?subject=Tune%20Your%20Guitar%20Support%20v1.0.0'}
 					});
 }
